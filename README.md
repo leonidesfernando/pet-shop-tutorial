@@ -16,3 +16,10 @@ To execute, you must migrate and start the server
 
 - migration: `truffle migrate --network sepolia`
 - start server: `npm run dev`
+
+Or you can user the local accounts and import they on Metamask:
+- start ganache: `ganache`
+- check the door and set on app.js(line 44)
+- connect Metamask on local network
+    - [video](https://www.google.com/search?q=ganache+on+metamask&rlz=1C1GCEU_enPL1041__1041&oq=ganache+on+metamask&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHtIBCDkwODJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#kpvalbx=_uOrcZIzbKpGrwPAP26au0As_33)
+- start the server: `npm run dev`

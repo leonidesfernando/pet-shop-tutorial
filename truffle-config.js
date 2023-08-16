@@ -15,7 +15,9 @@ module.exports = {
       network_id: "*" // Match any network id
     },
     develop: {
-      port: 8545
+      host: "127.0.0.1",
+      port: 8545,
+      network_id: "*" // Match any network id
     },
     sepolia: {
       provider: () => new HDWalletProvider(mnemonic, `https://sepolia.infura.io/v3/${PROJECT_ID}`),
